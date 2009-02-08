@@ -16,7 +16,7 @@ class AddTestData < ActiveRecord::Migration
         exciting---and difficult---stuff, like writing quality code.
       </p>},
     :image_url =>   '/images/auto.jpg',
-    :price => 29.95)
+    :price => 2995)
 
 
     Product.create(:title => 'Pragmatic Version Control',
@@ -30,7 +30,7 @@ class AddTestData < ActiveRecord::Migration
          up experiencing time-consuming problems.
       </p>},
     :image_url => '/images/svn.jpg',
-    :price => 28.50)
+    :price => 2850)
     # . . .
 
 
@@ -50,7 +50,7 @@ class AddTestData < ActiveRecord::Migration
         expect them.
       </p>},
     :image_url => '/images/utc.jpg',
-    :price => 27.75)
+    :price => 2775)
 
 
   end
